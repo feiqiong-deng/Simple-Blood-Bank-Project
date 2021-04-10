@@ -126,5 +126,10 @@ public class DonationRecordLogic extends GenericLogic<DonationRecord, DonationRe
         return Arrays.asList( e.getId(), e.getTested(), e.getAdministrator(), e.getHospital(), e.getCreated(), 
                 e.getBloodDonation()== null ? "null" : e.getBloodDonation().getId(), e.getPerson()== null ? "null" :e.getPerson().getId());
     }
+    
+    @Override
+    public List<DonationRecord> search( String search ) {
+        return get( () -> dal().findContaining( search ) );
+    }
 
 }
