@@ -417,7 +417,7 @@ public class DonationRecordTest {
         assertEquals(expectedEntity.getTested(), list.get(1));
         assertEquals(expectedEntity.getAdministrator(), list.get(2));
         assertEquals(expectedEntity.getHospital(), list.get(3));
-        assertEquals(expectedEntity.getCreated(), list.get(4));
+        assertEquals(logic.convertDateToString(expectedEntity.getCreated()), list.get(4));
         assertEquals(expectedEntity.getBloodDonation().getId(), list.get(5));
         assertEquals(expectedEntity.getPerson().getId(), list.get(6));
 

@@ -123,7 +123,7 @@ public class DonationRecordLogic extends GenericLogic<DonationRecord, DonationRe
 
     @Override
     public List<?> extractDataAsList(DonationRecord e) {
-        return Arrays.asList( e.getId(), e.getTested(), e.getAdministrator(), e.getHospital(), e.getCreated(), 
+        return Arrays.asList( e.getId(), e.getTested(), e.getAdministrator(), e.getHospital(), convertDateToString(e.getCreated()),
                 e.getBloodDonation()== null ? "null" : e.getBloodDonation().getId(), e.getPerson()== null ? "null" :e.getPerson().getId());
     }
     

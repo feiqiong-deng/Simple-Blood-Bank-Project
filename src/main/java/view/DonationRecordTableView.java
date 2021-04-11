@@ -41,7 +41,7 @@ public class DonationRecordTableView extends HttpServlet {
             out.println("<body>");
             
             out.println( "<table style=\"margin-left: auto; margin-right: auto;\" border=\"1\">" );
-            out.println( "<caption>Account</caption>" );
+            out.println( "<caption>Donation Record Table</caption>" );
             
             DonationRecordLogic logic = LogicFactory.getFor( "DonationRecord" );
             out.println( "<tr>" );
