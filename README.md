@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/39057315/115084457-f37a4a80-9ed6-11eb-
 #### Here are screenshots of web pages.
 
 ##### 1. Display Blood Donation table without JSP.
-![Display Blood Donation table without JSP](screenshots/blood_donation_table_normal.png)
+<img width="1013" alt="blood_donation_table_normal" src="https://user-images.githubusercontent.com/66885154/115945271-f05bfd00-a488-11eb-869e-e9ffb4be85cb.png">
 
 ##### 2. Insert a new row to Person table.
 ![Insert a new row to Person table](screenshots/create_person_normal.png)
