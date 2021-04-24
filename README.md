@@ -17,16 +17,16 @@ https://user-images.githubusercontent.com/39057315/115084457-f37a4a80-9ed6-11eb-
 <img width="1013" alt="blood_donation_table_normal" src="https://user-images.githubusercontent.com/66885154/115945271-f05bfd00-a488-11eb-869e-e9ffb4be85cb.png">
 
 ##### 2. Insert a new row to Person table.
-![Insert a new row to Person table](screenshots/create_person_normal.png)
+<img width="1013" alt="create_person_normal" src="https://user-images.githubusercontent.com/66885154/115945312-28fbd680-a489-11eb-9616-4fcf6afbc456.png">
 
 ##### 3. Display Donation Records table with JSP.
-![Display Donation Records table with JSP](screenshots/donation_records_table_jsp.png)
+<img width="1010" alt="donation_records_table_jsp" src="https://user-images.githubusercontent.com/66885154/115945317-2bf6c700-a489-11eb-8bfc-479a0b29553a.png">
 
 ##### 4. Display Blood Bank table with JSP.
-![Display Blood Bank table with JSP](screenshots/blood_bank_table_jsp.png)
+<img width="1013" alt="blood_bank_table_jsp" src="https://user-images.githubusercontent.com/66885154/115945320-2e592100-a489-11eb-80f4-c31517f8fd0f.png">
 
 ##### 5. Search Blood Bank table.
-![Search Blood Bank table](screenshots/search_blood_bank_table_jsp.png)
+<img width="1012" alt="search_blood_bank_table_jsp" src="https://user-images.githubusercontent.com/66885154/115945321-30bb7b00-a489-11eb-9e1d-b71e3b51c6d6.png">
 
 ##### 6. Blood Donate Form page - by filling up this form, users are inserting a new row to Person table, Blood Donation table and Donation Record table respectively.
-![Blood Donate Form page](screenshots/blood_donate_form_page.png)
+<img width="1008" alt="blood_donate_form_page" src="https://user-images.githubusercontent.com/66885154/115945322-32853e80-a489-11eb-8e0b-abb1f869fcdf.png">
